@@ -1,0 +1,46 @@
+body{
+
+    background-color: red;
+
+}
+
+#main-container{
+
+    background-color: blue;
+
+}
+
+#main-container > article{
+    
+    background-color: yellow;
+    width: 32.33%;
+    margin-right: .5%;
+    margin-left: .5%;
+    float: left;
+
+}
+
+footer{
+
+    clear: both;
+
+}
+
+.text-container{
+
+    height: 60px;
+
+}
+
+.div-title{
+
+    background-color: green;
+
+}
+
+.div-title p{
+
+    background-color: hotpink;
+    text-align: center;
+
+}

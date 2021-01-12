@@ -1,0 +1,49 @@
+#contenedor{
+
+    border: .5em solid #0c1f56;
+    height: 300px;
+    width: 660px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    /*
+        Para usar las propiedades de cajas en modo display : flex
+        en este caso se lo agregaremos al contenedor padre, que es donde trabajaremos casi 
+        toda la logica. 
+        
+        flex-direction: row; = Nos permite ver de que manera estara distribuido todos los 
+        elementos que estan dentro del contenedor padre, este ordenara los elementos hijos de 
+        manera en fila. 
+        
+        flex-direction: Acepta los siguientes valores. 
+        1.  row: Que ordena los elementos en forma de fila. 
+        2.  row-reverse: Ordena los elementos hijos en forma de fila pero en el orden inverso 
+            de como inicialmente estan ordenados 
+        3.  column : Ordenalos elementos hijos como columnas. 
+        4.  colum-reverse: Ordena los elementos hijos en forma de columna pero al reves, similar 
+            row-reverse.
+         
+        Tenga en cuenta cuando se usa nowrap aunque el ancho o alto del elemento sea mayor que el 
+        elemento contenedor padre entonces solo usara el espacio correspondiente para que todos los 
+        elementos hijos queden dentro del padre.
+
+        Si se utiliza flew-wrap : wrap entonces lo que hara es asociar los anchos y altos solo a
+        la medida del contendor padre. 
+        
+    */
+
+}
+
+.elemento{
+
+    background-color: orange;
+    width: 310px;
+    height: 25%;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+

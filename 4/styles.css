@@ -1,0 +1,36 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.fixed-div{
+
+    position: fixed;
+    background-color: blue;
+    width: 100%;
+    top: -1px;
+}
+
+.fixed-div button{
+
+    width: 19%;
+    margin: 0px;
+    padding: 0%;
+    
+}
+
+/*
+    https://mega.nz/file/XxYnhK7T#A6cHnRdBOMfHCo1KT_IDZ9jUwQ84AGneiUsCHiXYix0
+    https://mega.nz/file/bkJDyAba#bYcCrssumniZHb6YHX-UFUJPj3GOa2C14dZE_RLhbfM
+    https://mega.nz/file/noYRgIaD#AmksWTjRAHYDUAaEdzOLtjZRQ2-_sdFt42zzez6NIkE
+    https://mega.nz/file/n0ZhwICD#TBfsaA2Vlffhn8r4H6lDzVp1r4OwK9Y8qoo2R47bh34
+    https://mega.nz/file/v1JVUaxb#dKmhfcrnUpRV1mKwa-Oo00Wy-0yYF40_r0CYnc9Lw0U
+    https://mega.nz/file/SxJzmayS#SddpgakHZ864x4x8XYpquuhknbrTbQP-2u9a2yQ7rRY
+    https://mega.nz/file/b4AFDYBZ#xERQM5jGti2fIGXTc3LoPWBIREKXyObIuwoo0Xni2-E
+    https://mega.nz/file/z0ZV2QoR#4dSp5C1vm4qwyTODlS830TDXhNTA8Rj9abScbcocmbU
+    https://mega.nz/file/KsA3UYQB#TFbnd16xfHA_cluxswMiKBeTH-BhLefqbPfWKM9Jdtw
+    https://mega.nz/file/u0Z1xK4I#XygnWgDTIy0XaE3A0LzR5Yw_fVpiKIQHmdx4K3g3jcY
+    https://mega.nz/file/rwYDRIiA#gweqcxiPElw7xce4DgnqU0Ru8NY6uWH8Sv520pJ9URc
+*/

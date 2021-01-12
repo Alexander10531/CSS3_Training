@@ -1,0 +1,39 @@
+#container{
+
+    display : grid;
+    column-gap: 2px;
+    row-gap: 2px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 1000px;
+
+}
+
+.box{
+
+    background-color: royalblue;
+    text-align: center;
+
+}
+
+.box6{
+
+    /*grid-row: 2 / 4;
+    grid-column: 2 / 4;*/
+    grid-area : 2/2/4/4;
+    background-color: red;
+
+}
+
+/*
+
+    Cuando se define grid-template-colums o grid-template-row se define como estara distribuida
+    las filas y columnas de la pagina web, si abrimos las herramientas de desarrollo del navegador del que estemos usando
+    entonces tendremos que ver como modificar las propiedades de los elementos hijos y definir. 
+    de esta manera en los estilos de los contenedores hijo tendremos que modificar las siguientes propiedades
+    1. grid-template-colums : 1fr 1fr 1fr 1fr. 
+    2. grid-row: 2 / 4; : De esta manera definiremos el orden en el que empieza y termina la rejilla.
+    3. grid-column: 2 / 4 : Lo mismo que grid-row pero en las columnas. 
+    4. grid-area : 2/2/4/4 Este es un shorthand donde definiremos donde empezara la posicion de los contenedores. 
+    y los ultimos 2 donde definire el final. 
+      
+*/

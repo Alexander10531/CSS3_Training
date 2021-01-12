@@ -1,0 +1,47 @@
+.body{
+    
+    margin : 0px;
+    padding: 0px;
+
+}
+
+#contenedor-padre{
+
+    height: 500px;
+    border: 1em solid #020833;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.elemento{
+
+    order: 2;
+    background: orange;
+    /*
+
+        flex-grow : Lo que hace es tomar el ancho de todo el contenedor padre, lo que hara es 
+        incrementar el valor en 1 cada pixel que se requiera
+        flex-shrink : Lo que hace es decremtar segun la cantidad del contenedor padre. 
+        order : Es definir el orden de los elementos en el caso definimos todos los elementos tengan
+        orden 2 y el elemento que tiene el elemento3 tiene orden 1, para que este vaya primero. 
+        align-self : Para poder sacar del flujo que definimos en el contenedor padre, de esta 
+        manera en el elemento3 haremos que este se quede hasta abajo. 
+         
+    */
+    flex-grow: 1;
+    width: 100px;
+    text-align: center;
+    height: 100px;
+    margin: 10px;
+
+}
+
+.elemento3{
+
+    order: 1;
+    align-self: flex-end;
+
+}

@@ -1,0 +1,32 @@
+#body{
+height: 1000px;
+    background-color: red;
+    width: auto;}
+
+.box{
+    
+    /* El valor inherit hace referencia a que se herede el valor de su elemento padre, en este caso toma el ancho del elemento body */
+    /* El valor de heigth o width si no se especifica es auto*/
+    width: auto;
+    height: 25%;
+    margin: 1px;    
+    /*background-color: yellow;
+    background-image: url(1.jfif);
+    background-attachment: fixed;*/
+    background: yellow url(1.jfif) fixed;}
+
+.div-section{
+    width: 90%;
+    background-color: brown;
+    height: 98%;
+    margin: 1% 5%;   
+    border-right: .2em solid black;
+    border-left: .2em solid black;}
+
+.div-section-position{
+    position : relative;}
+
+.div-section p{
+text-align: center;}
+/*Las instrucciones margin-top y margin-bottom solo se pueden usar en bloques o en imagenes. Sin embargo las 
+instruccion margin-left y margin-rigth se pueden usar en cualquier elemento*/

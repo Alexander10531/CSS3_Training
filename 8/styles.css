@@ -1,0 +1,49 @@
+#contenedor-padre{
+    
+    height: 550px;
+    border: 10.4px solid #0c0235;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+     
+
+    /*
+        justify content para mantener establecer orden en los elementos, similar al justificado de 
+        word, pero con elementos html
+        La propiedad justify content acepta los siguientes valores. 
+        1. flex-start : Lo que hace este es poner todos los elementos hijos desde el incio del elemento 
+        padre. 
+        2. flex-end : Y los elementos hijos lo que hacen es colocarlo al final de contenedor del 
+        contenedor padre. 
+        3. Center : Centra los elementos del contenedor padre. 
+        4. space-around : distribuye los elementos del contenedor padre en espacios iguales, pero a diferencia de 
+        space-between agrega margen a los costados del ultimo y primer elemento hijo del contenedor padre. 
+        5. space-between : Lo mismo que space-between pero sin agregar margen a los elementos hijo. 
+
+    */
+
+    /*
+
+        align-items : Este es similar a la propiedad justify-content con la diferencia que este alinea los elementos 
+        de manera vertical. 
+        1. flex-start : Similar a flex-start de justify content. 
+        2. flex-end : Lo mismo. 
+        3. center : Similar. 
+        4. stretch : Lo que hace es que los elementos abarquen todo el alto del contendor padre. 
+        
+    */
+}
+
+.elemento{
+    
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100px;
+    height: 75px;
+    background-color: orange;
+    text-align: center;
+
+}

@@ -1,0 +1,25 @@
+.exception{
+
+    width: 100%;
+    background-color: green;
+    float: left;
+}
+
+/*
+    Los siguientes bloques tienen un valor de posicion relativo, el posicionamiento relativo es a traves del 
+    contenedor padre, si nosotros queremos situar de manera distinta uno de los divs para que no siga el funcionamiento del 
+    resto de los divs lo que haremos es modificar los parametros left, rigth, up, bottom de esa manera veremos que
+    queda un hueco en el div que se quiere mover. 
+    
+*/
+.div-proof{
+
+    float: left;
+    width: 32.33%;
+    background-color: blue;
+    border-left: .1em solid black;
+    border-right: .1em solid white;
+    position: relative;
+
+}
+

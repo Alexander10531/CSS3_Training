@@ -1,0 +1,50 @@
+.body{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#container{
+
+    display: grid;
+    align-content: center;
+    height: 500px;
+    background-color: red;
+    /* 
+    grid-template-columns: 59% 39%;
+    column-gap: 1%;
+    row-gap: 1%;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr;
+    grid-template-columns: repeat(2, 50%);
+    */
+    
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 50px;
+
+
+}
+
+/*
+
+    display : grid 
+    Es similar al display : flex con la diferencia que aqui usaremos 
+    grid
+    1. grid-template-columns : 59% 39%; Esta propiedad nos permite 
+    hacer que los div-hijos que se encuentran dentro del contenedor padre, utilicen las 
+    proporcionen que le fueron determinadas. 
+    2. column-gap 1%; Es la propiedad que permite realizar separacion entre las rejillas que fueron determinadas. 
+    3. row-gap 1%: Lo mismo que column-gap.
+    4. grid-auto-rows: 50px; Es una propiedad que define un tamaño de las columnas si no se ha definido.  
+
+
+*/
+
+.box{
+
+    background: royalblue;
+    margin: 1px;
+    text-align: center;
+
+}

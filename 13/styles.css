@@ -1,0 +1,19 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#main-container{
+
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+
+}
+
+#left-menu{
+
+    background: #181818;
+    
+}

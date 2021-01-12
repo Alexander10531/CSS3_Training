@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel = "stylesheet" href = "styles.css" type="text/css" media="all" />
+    </head>
+    <body id = "body">
+        <!--
+            Modelo jerarquico del modelo de caja
+            1. Margen*
+            2. Background - color 
+            3. Background - image
+            4. Padding* 
+            5. Border
+            Todos los elementos que tengan un asterisco son opcionalies
+        -->
+        <section class = "box">
+            <div class = "div-section">
+                <!--Al ser un elemento de bloque los parrafos aunque se puedan poner uno a la par de otro siempre se mostraran por defecto en
+                una linea nueva, con en las siguientes dos lineas-->
+                <!--Por la naturaleza de los elementos en bloque no pueden aparecer dentro de elementos en linea pero un elemento en linea 
+                si puede aparecen dentro de otro elemento en bloque e incluso un elemento en linea-->
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam quaerat mollitia aspernatur fugit voluptatem excepturi. Natus assumenda debitis aperiam quibusdam aut sequi laudantium doloribus delectus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, impedit?</p>
+            </div>
+        </section>
+        <section class = "box">
+            <div class = "div-section">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam quaerat mollitia aspernatur fugit voluptatem excepturi. Natus assumenda debitis aperiam quibusdam aut sequi laudantium doloribus delectus.</p>
+            </div>
+        </section>
+    </body>
+</html>
+
+
+<!--
+    Los elementos en línea definidos por HTML son: a, abbr, acronym, b, basefont, bdo, big,
+    br, cite, code, dfn, em, font, i, img, input, kbd, label, q, s, samp, select, small, span,
+    strike, strong, sub, sup, textarea, tt, u, var.
+
+-->
+
+<!--
+
+    Los elementos de bloque definidos por HTML son: address, blockquote, center, dir,
+    div, dl, fieldset, form, h1, h2, h3, h4, h5, h6, hr, isindex, menu, noframes, noscript, ol, p,
+    pre, table, ul
+
+    Los siguientes elementos también se considera que son de bloque: dd, dt, frameset, li,
+    tbody, td, tfoot, th, thead, tr.
+
+-->
+
+<!--
+
+    Los siguientes elementos pueden ser en línea y de bloque según las circunstancias:
+    button, del, iframe, ins, map, object, script.
+
+-->

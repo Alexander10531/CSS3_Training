@@ -1,0 +1,40 @@
+/*
+    OJO: Los contenedores padre que contienen contenedores hijos que tienen un atributo float no hacen crecer la 
+    altura del contenedor padre, por ende en la sigueintes directivas si inspeccionamos la pagina en bruto veremos 
+    que la altura del contenedor padre es 0. 
+
+*/
+
+/*
+
+    Tener en cuenta que cuando se esta trabajando con position absolute lo que se hara es buscar toda la lista 
+    de contenedores del elemento al que se le esta aplicando position : absolute. a partir de toda esta lista de contenedores
+    se movera buscando a traves de <body></body> y a partir de ahi buscara un elemento que tenga una posicion diferente 
+    a static si no encuentra nignuno ocupara el contedor del body de lo contrario entonces usara el contenedor de la ventana, en 
+    este caso por ejemeplo si no utilizamos position : relative en el div con id container-div lo que haria seria situare al principio
+    de la ventana del navegador, pero al usar el position : relative se situa en el inicio del mismo. 
+
+*/
+#container-div{
+    position: relative;
+}
+
+#container-div div{
+    width: 32.333%;
+    float: left;
+    background-color: red;
+    border-left: .1em solid black;
+}
+
+/*
+    Por el contrario cuando usamos un position absolute este eligira su posicion de coordenadas a partir de su 
+    contenedor padre, a diferencia del position : relative que lo mueve a partir de el 
+*/
+.div-absolute{
+
+    position: absolute;
+    left: 50%;
+    background-color: blue;
+    top: 3em;
+
+}
