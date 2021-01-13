@@ -1,0 +1,22 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.div-header{
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color:blue;
+    width: 100vw;
+    padding: 1%;
+
+}
+
+.logo-img{
+
+    width: 8%;
+
+}
