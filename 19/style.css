@@ -1,0 +1,97 @@
+body{
+
+    padding: 0px;
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --secondary-color : #74CAFE;
+    --main-color : #15202B;
+
+}
+
+#main-container{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: var(--main-color);
+
+}
+
+.container-1{
+
+    flex-grow: 1;
+    flex-basis: 50%;
+    background-color: var(--secondary-color) !important;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    font-size: 1.1875em;
+    min-height: 245px;
+
+}
+
+.container-2{
+
+    flex-grow: 1;
+    flex-basis: 50%;
+    height: 85vh;
+    display: flex;
+
+}   
+
+.container-3{
+
+    height: 15vh;
+    min-width: 100%;
+    flex-grow: 1;
+    background-color: var(--main-color);
+
+}
+
+.sub-container-1{
+
+    align-self: center;
+    font-size: 1em;
+    width: 70%;
+    color: white;
+    font-weight: 600;
+
+}
+
+.parraf-container{
+
+    margin: 2em 0em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+
+}
+
+.parraf-container i, p{
+
+    margin: 0% 1%;
+
+}
+
+@media(max-width : 800px){
+
+    #main-container{
+
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+
+    }
+
+    .container-1, .container-2, .container-3{
+
+        min-width: 100%;
+        flex-basis: 100%;
+        height: 100vh;
+
+    }
+
+}
+
+/*800*/
