@@ -44,6 +44,9 @@ footer{
     flex-grow: 8;
     padding: 2%;
     height: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 5px;
+
 }
 
 .left-description{
@@ -66,7 +69,15 @@ footer{
 
     width: 96%;
     border-width: 0px;
-    margin: 4% 2%;
+    margin: 3% 2%;
+    font-size: 1.1em;
+    color: #9094a9;
+    background-color: transparent;
+}
+
+.form-common-style>input:focus{
+
+    outline: none;
 
 }
 
@@ -75,7 +86,7 @@ footer{
     width: 100%;
     height: 100%;
     padding: 10px 0px;
-    background-color: var(--main-color);
+    background-color: transparent;
     color: white;
     border-width: 0px;
 
@@ -87,9 +98,30 @@ footer{
 
 }
 
+.container-login>button{
+
+    font-size: 1.1em;
+    font-weight: 600;
+
+}
+
 .first-container{
 
     border-bottom: 1px solid #00000024;
+    
+}
+
+.container-login:hover{
+
+    cursor: pointer;
+    background-color: #09116d;
+
+}
+
+.container-login>button:hover{
+
+    cursor: pointer;
+    background-color: #09116d;
 
 }
 
@@ -99,4 +131,65 @@ footer{
     text-align: center;
     margin: 5% 0%;
     
+
+}
+
+.second-container{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.second-container>button{
+
+    background-color: #36A420;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;       
+    margin: 5% 0%;
+    padding: 4% 5%;
+
+}
+
+.second-container>button:hover{
+
+    background-color: #2aa012;
+    cursor: pointer;
+
+}
+
+.last-div-login>a{
+
+    text-decoration: none;
+
+}
+
+
+.last-div-login>a:visited{
+
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.last-div-login>a:hover{
+
+    text-decoration: underline;
+
+}
+
+
+.first-container>a{
+
+    color: var(--main-color);
+
+}
+
+.container-input:focus-within{
+
+    outline-color: var(--main-color);
+    outline-width: 1px;
+
 }
