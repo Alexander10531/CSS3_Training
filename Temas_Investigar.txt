@@ -1,1 +1,2 @@
 1. Extension de imagenes webp
+2. overflow-wrap: break-word,

@@ -5,6 +5,7 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     --secondary-color : #74CAFE;
     --main-color : #15202B;
+    --third-color : #1DA1F2;
 
 }
 
@@ -22,7 +23,7 @@ body{
     flex-grow: 1;
     flex-basis: 50%;
     background-color: var(--secondary-color) !important;
-    height: 85vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     font-size: 1.1875em;
@@ -34,17 +35,124 @@ body{
 
     flex-grow: 1;
     flex-basis: 50%;
-    height: 85vh;
+    height: 90vh;
+    justify-content: center;
     display: flex;
+    color: white;
 
 }   
 
+.sub-container-2{
+
+    width: 55%;
+    display: inherit;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 2.6em;
+
+}
+
+.second-container, .first-container{
+
+    display: inherit;
+    flex-direction: column;
+}
+
+
+.first-container{
+
+    font-size: 2em;
+    font-family: inherit;
+    font-weight: 500;
+
+}
+
+.first-container i{
+
+    margin-bottom: .7em;
+    font-size: 1.3em;
+
+}
+
+.second-container>*{
+
+    margin-bottom: 9px;
+    font-weight: 600;
+
+}
+
+.second-container>button{
+
+    border-radius: 62.4375em;
+    border: none;
+    color: white;
+    padding: 4% 0%;
+    cursor: pointer;    
+
+}
+
+.second-container>button:nth-of-type(1){
+
+    background-color: var(--third-color);
+
+}
+
+.second-container>button:nth-of-type(1):hover{
+
+    background-color: #1A91DA;
+
+}
+
+.second-container>button:nth-of-type(2){
+
+    background-color: transparent;
+    border-color: var(--secondary-color);
+    border: 1px solid #1da1f2;
+    color: #1DA1F2;
+
+}
+
+
+.second-container>button:nth-of-type(2):hover{
+
+    background-color: #162D40;
+
+}
+
 .container-3{
 
-    height: 15vh;
-    min-width: 100%;
+    height: 8vh;
+    min-width: 96%;
     flex-grow: 1;
     background-color: var(--main-color);
+    padding: 2vh 2%;
+    font-size: .85em;
+
+}
+
+.container-3 nav{
+
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: #8899A6;
+
+}
+
+.container-3>nav>*{
+
+    padding: 0px 4px;
+
+}
+
+.container-3>nav>*:hover{
+
+    text-decoration: underline;
+    cursor: pointer;
 
 }
 
@@ -92,6 +200,10 @@ body{
 
     }
 
-}
+    .container-3{
 
-/*800*/
+        padding: 2vh 0px;
+
+    }
+
+}
