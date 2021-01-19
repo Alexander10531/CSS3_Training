@@ -1,0 +1,20 @@
+.parragraph-proof::first-line{
+
+    color: blue;
+    background-color: black;
+
+}
+
+.second-parragraph::first-letter{
+
+    color: red;
+    background-color: blue;
+
+}
+
+::selection{
+
+    color: brown;
+    background-color: cadetblue;
+
+}
