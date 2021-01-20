@@ -1,0 +1,38 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+    color: white;
+
+}
+
+#main-container{
+
+    display: flex;
+
+}
+
+.container-1{
+
+    background-color: red;
+    height: 500px;
+    width: 48vw;
+    margin: 0% 1vw;
+    overflow: scroll;
+    box-sizing: border-box;
+    padding: 0px 15px;
+
+}
+
+.container-2{
+
+    background-color: blue;
+    height: 500px;
+    width: 48vw;
+    margin: 0% 1vw;
+    overflow: scroll;
+    box-sizing: border-box;
+    padding: 0px 15px;
+
+}
+
