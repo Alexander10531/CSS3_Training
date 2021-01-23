@@ -2,6 +2,10 @@ body{
 
     margin:0px;
     padding: 0px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --color-border:#00000038;
+    --font-color: #FAFAFA;
+    background-color: var(--font-color);
 
 }
 
@@ -15,7 +19,7 @@ header{
 
     width: 100vw;
     justify-content: center;
-    border-bottom: 1px solid #00000038;
+    border-bottom: 1px solid var(--color-border);
     position: -webkit-sticky;
     position: sticky;
     background-color: white;
@@ -117,14 +121,14 @@ main{
 .cmc{
 
     margin-left: 20%;
-    width: 80%;
 
 }
 
 .container-history{
 
-    background-color: rosybrown;
+    border: 1px solid var(--color-border);
     padding: 1% 2%;
+    margin-top: 1.5em;
 
 }
 
@@ -132,30 +136,45 @@ main{
 
     padding: 0px;
     margin: 0px;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.img-history{
+
+    padding: 0% 1%;
+
 }
 
 .img-history>*{
 
     display: block;
+    cursor: pointer;
 
 }
 
 .img-history>img{
 
     border-radius: 5em;
-    height: 3.5em;
+    height: 3em;
+
+}
+
+.img-history>span{
+
+    font-size: .7em;
 
 }
 
 .post-container{
     
     height: 100px;
-    background-color: black;
+
 }
 
 .r-aside{
 
-    background-color: brown;
     height: 100px;
     width: 70%;
     display: flex;
