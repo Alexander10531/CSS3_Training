@@ -1,0 +1,80 @@
+body{
+
+    padding: 0px;
+    margin: 0px;
+    --main-color : #0056D2;
+    --main-font : Arial, Helvetica, sans-serif; 
+    --second-font : 'Source Sans Pro', sans-serif;
+
+}
+
+
+.container-header{
+
+    width: 100vw;
+    padding: 1% 2%;
+    display: flex;
+    box-sizing: border-box;
+
+}
+
+.logoCoursera{
+
+    /*height : 32px;*/
+    width: 127px;
+    height: 100%;
+
+}
+
+.sub-containerH-1{
+
+    width: 50%;
+    background-color: green;
+    display: inherit;
+
+}
+
+
+.sub-containerH-1 div{
+
+    display: inherit;
+    flex-direction: row;
+    width: 33.33%;
+    align-items: center;
+
+}
+
+.exploreButton{
+
+    background-color: var(--main-color);
+    border-radius: 3px;
+    padding: 5px;
+
+}
+
+.subExploreButton{
+
+    width: 50%;
+
+}
+
+.searchButton>*{
+
+    border: none;
+    height: 2em;
+    border-radius: 0px;
+    padding: 0px;
+
+}
+
+.searchInput{
+
+    width: 80%;
+
+}
+
+#btnSearch{
+
+    width: 20%;
+
+}

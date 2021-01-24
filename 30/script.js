@@ -3,7 +3,7 @@ var actualPosition = 0;
 function leftButton(){
 
     var elementList = document.getElementsByClassName("element-list");
-    actualPosition = actualPosition - 80;
+    actualPosition = actualPosition - 180;
     for(var i = 0; i < elementList.length; i++){
         
         elementList[i].style.left = actualPosition + "px";
@@ -15,7 +15,7 @@ function leftButton(){
 function rigthButton(){
 
     var elementList = document.getElementsByClassName("element-list");
-    actualPosition = actualPosition + 80;
+    actualPosition = actualPosition + 180;
     for(var i = 0; i < elementList.length; i++){
         
         elementList[i].style.left = actualPosition + "px";
