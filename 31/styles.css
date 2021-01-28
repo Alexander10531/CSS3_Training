@@ -2,79 +2,125 @@ body{
 
     padding: 0px;
     margin: 0px;
-    --main-color : #0056D2;
-    --main-font : Arial, Helvetica, sans-serif; 
-    --second-font : 'Source Sans Pro', sans-serif;
-
+    --main-color: #0056D2;
+    --heigth-header: 50px;
+    --width-header: 120px;
+    --padding-elements: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
 
+.main-container{
 
-.container-header{
-
-    width: 100vw;
-    padding: 1% 2%;
     display: flex;
+    width: 100vw;
+    padding: 1em;
     box-sizing: border-box;
+    border-bottom: 1px solid #00000029;
 
 }
 
-.logoCoursera{
-
-    /*height : 32px;*/
-    width: 127px;
-    height: 100%;
-
-}
-
-.sub-containerH-1{
-
-    width: 50%;
-    background-color: green;
-    display: inherit;
-
-}
-
-
-.sub-containerH-1 div{
+.first-header{
 
     display: inherit;
     flex-direction: row;
-    width: 33.33%;
-    align-items: center;
-
-}
-
-.exploreButton{
-
-    background-color: var(--main-color);
-    border-radius: 3px;
-    padding: 5px;
-
-}
-
-.subExploreButton{
-
     width: 50%;
 
 }
 
-.searchButton>*{
+.first-header>div{
 
-    border: none;
-    height: 2em;
+    display: inherit;
+
+}
+
+.div-logo{
+
+    margin-right: 3%;
+
+}
+
+.div-logo>img{
+
+    height: var(--heigth-header);
+    width: var(--width-header);
+
+}
+
+.div-dropdown{
+
+    padding: 6px 0px;
+    margin-right: 3%;
+
+}
+
+.button-search{
+
+    background-color: var(--main-color);
+    border-style: none;
+    padding: 0px 10px;
     border-radius: 0px;
+    cursor: pointer;
+
+}
+
+.button-dropdown{
+
+    border-style: none;
+    background-color: var(--main-color);
+    color: white;
+    font-weight: 700;
+    padding: 0px 11px;
+    font-size: 11px;
+    border-radius: 3px;
+
+}
+
+.button-dropdown>img{
+
+    height: calc(var(--heigth-header) - 40px);
+
+}
+
+.div-search{
+
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 50%;
+
+}
+
+.textField-search{
+
     padding: 0px;
 
 }
 
-.searchInput{
+.textField-search:focus{
 
-    width: 80%;
+    outline: none;
+
+}
+
+.div-search>input{
+
+    width: 89%;
 
 }
 
-#btnSearch{
+.second-header{
 
-    width: 20%;
+    display: inherit;
+    width: 50%;
+    flex-direction: row-reverse;
+        
+}
+
+.second-header>div{
+
+    display: inherit;
+    align-items: center;
+    margin-left: 3%;
 
 }
+
