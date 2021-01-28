@@ -73,6 +73,7 @@ body{
     padding: 0px 11px;
     font-size: 11px;
     border-radius: 3px;
+    cursor: pointer;
 
 }
 
@@ -124,3 +125,16 @@ body{
 
 }
 
+.fa-sort-up{
+
+    transform: rotate(180deg);
+
+}
+
+.button-dropdown:hover{
+
+    background-color: white;
+    color: var(--main-color);
+    box-shadow: 1px #00000029;
+
+}
